@@ -15,4 +15,7 @@ public class Curso {
     public Aluno[] getAluno() {
         return aluno;
     }
+    public Aluno getAluno2() {
+        return aluno[1];
+    }
 }

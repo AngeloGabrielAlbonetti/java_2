@@ -19,6 +19,7 @@ public class Main {
         c.alunos(al, 0);
         c.alunos(al1, 1);
         c.alunos(al2,2);
+        System.out.printf("\n%s\n",c.getAluno2().getNome());
 
         for (int i = 0; i < 3; i++) {
             System.out.println(c.getAluno()[i].getNome());
