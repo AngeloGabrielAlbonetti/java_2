@@ -42,5 +42,15 @@ public class Main {
         System.out.printf("\n%s", da.getNome());
         Cachorro ca = new Cachorro("osz");
         System.out.printf("\n%s", ca.getNome());
+
+        Alunos n1 = new Alunos("novo", 12);
+        Alunos n2 = new Alunos("novo2", 12);
+        Faculdade t = new Faculdade("cur1");
+        t.adiconarAluno(n1);
+        t.adiconarAluno(n2);
+        System.out.printf("\n%s 1", t.mostan(1));
+        t.mostrarTudo();
+
+
     }
 }
